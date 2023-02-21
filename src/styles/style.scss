@@ -1,0 +1,37 @@
+@import 'mixins';
+
+
+
+/* Plugins */
+
+
+
+/* Blocks */
+
+body, ul, ol {
+  margin: 0;
+  padding: 0;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url(../fonts/helvetica.woff2);
+  src: url(../fonts/helvetica-bold.woff2);
+}
+
+
+
+@import './src/blocks/header/header';
+@import './src/blocks/main/main';
+@import './src/blocks/prod/prod';

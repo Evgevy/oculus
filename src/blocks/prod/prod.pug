@@ -1,0 +1,18 @@
+mixin prod(modifier)
+  section.prod&attributes(attributes)
+    .prod__content 
+      .prod__main 
+        .prod__titles
+          h3.prod__title PRODUCT FEATURES 
+          p.prod__text Easy to set up and safe to use
+        .prod__scroll 
+          each val in['01 Graphics', '02 Controls', '03 Processor', '04 Set up your play area', '05 Gardian activity', '06 Headset casting']
+            button(type="button").prod__btn= val
+        img(src="img/play.jpg" alt="3D очки").prod__image
+        .prod__sub 
+          .prod__subtitle 
+          .prod__subtext 
+          .prod__video 
+            button(type="button").video__button
+              include img/play.svg 
+            span.prod__small-text Watch the video

@@ -1,0 +1,12 @@
+mixin header(modifier)
+  header.header&attributes(attributes)
+    .header__content 
+      .header__nav
+        .header__menu
+          a(href="#").header__link SHOP
+          a(href="#").header__link GAMES
+          a(href="#").header__link METAVERSE
+        a(href="#").header__logo
+          include img/logo.svg
+        a(href="#").header__bag 
+          include img/bag.svg

@@ -1,0 +1,73 @@
+.main {
+    min-height: calc(100vh - 85px);
+    background-image: url(../img/fone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+
+    &__content {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    &__box {
+        padding-top: 150px;
+    }
+
+    &__title {
+        font-family: 'Helvetica';
+        font-size: px-to-em(96);
+        line-height: 114%;
+        color: #5C5C5E;
+        margin-bottom: 10px;
+    }
+
+    &__subtitle {
+        font-family: 'Helvetica';
+        font-size: px-to-em(36);
+        line-height: 113%;
+        color: #5C5C5E;
+        margin-bottom: 5px;
+    }
+
+    &__text {
+        font-family: 'Helvetica';
+        font-size: px-to-em(13);
+        line-height: 115%;
+        color: #5C5C5E;
+    }
+
+    &__button {
+        margin-top: 50px;
+        padding: 21px 111px;
+        font-family: 'Helvetica';
+        font-weight: 700;
+        font-size: px-to-em(16);
+        line-height: 112%;
+        color: #F6F4F5;
+        background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+        border: none;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+
+    &__price {
+        font-family: 'Helvetica';
+        font-weight: 700;
+        font-size: px-to-em(16);
+        line-height: 112%;
+        color: #5C5C5E;
+        padding: 21px 105px;
+        border: 1px solid transparent;
+        border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+        -moz-border-image: -moz-linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+        -webkit-border-image: -webkit-linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+        border-image-slice: 1;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+   
+}
