@@ -4,14 +4,26 @@ mixin prod(modifier)
       .prod__main 
         .prod__titles
           h3.prod__title PRODUCT FEATURES 
+          .prod__tab 
+            button(type="button" data-tab="tab-1").prod__btn 01 Graphics
+            button(type="button" data-tab="tab-2").prod__btn 02 Controls
+            button(type="button" data-tab="tab-3").prod__btn 03 Processor
+            button(type="button" data-tab="tab-4").prod__btn 04 Set up your play area
+            button(type="button" data-tab="tab-5").prod__btn 05 Gardian activity
+            button(type="button" data-tab="tab-6").prod__btn 06 Headset casting
+            //each val in['01 Graphics', '02 Controls', '03 Processor', '04 Set up your play area', '05 Gardian activity', '06 Headset casting']
+              button(type="button").prod__btn= val
+        .prod__info
           p.prod__text Easy to set up and safe to use
-        .prod__scroll 
-          each val in['01 Graphics', '02 Controls', '03 Processor', '04 Set up your play area', '05 Gardian activity', '06 Headset casting']
-            button(type="button").prod__btn= val
-        img(src="img/play.jpg" alt="3D очки").prod__image
+          img(src="img/player.jpg" alt="3D очки" id="tab-1").prod__image.prod__image--active
+          img(src="img/gadget.jpg" alt="Шлем 3D" id="tab-2").prod__image
+          img(src="img/future.jpg" alt="Шлем Oculus" id="tab-3").prod__image
+          img(src="img/gadget.jpg" alt="Шлем 3D" id="tab-4").prod__image
+          img(src="img/player.jpg" alt="3D очки" id="tab-5").prod__image
+          img(src="img/gadget.jpg" alt="Шлем 3D" id="tab-6").prod__image
         .prod__sub 
-          .prod__subtitle 
-          .prod__subtext 
+          .prod__subtitle Graphics
+          .prod__subtext With 1832 x 1920 pixels per eye, everything from multiplayer games and productivity apps to 360 0 videos look beyond incredible
           .prod__video 
             button(type="button").video__button
               include img/play.svg 
