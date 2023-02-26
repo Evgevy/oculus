@@ -1,0 +1,83 @@
+.more {
+    &__content {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px 100px;
+    }
+
+    &__textone {
+        padding-top: 10px;
+        font-family: 'Helvetica';
+        font-size: px-to-em(36);
+        line-height: 113%;
+        text-transform: uppercase;
+        background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 30px;
+    }
+
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    &__img {
+        max-width: 100%;
+        display: block;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    &__item {
+        border: 1px solid;
+        border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-family: 'Helvetica';
+        font-size: px-to-em(24);
+        line-height: 116%;
+        color: #070707;
+        margin-bottom: 10px;
+        min-height: 56px;
+    }
+
+    &__text {
+        font-family: 'Helvetica';
+        font-size: px-to-em(16);
+        line-height: 112%;
+        color: #5C5C5E;
+        margin-bottom: 42px;
+        margin-top: auto;
+    }
+
+    &__price {
+        font-family: 'Helvetica';
+        font-weight: 700;
+        font-size: px-to-em(16);
+        line-height: 112%;
+        color: #070707;
+        margin-bottom: 20px;
+        margin-top: auto;
+    }
+
+    &__btn {
+        font-family: 'Helvetica';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        border: 1px solid transparent;
+        border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
+        padding: 6px 70px;
+    }
+  
+}

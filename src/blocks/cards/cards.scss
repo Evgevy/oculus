@@ -1,0 +1,93 @@
+.cards {
+    &__content {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    &__games {
+        padding: 30px 0 100px;
+        display: flex;
+        gap: 0 25px;
+    }
+
+    &__titleone {
+        font-family: 'Helvetica';
+        font-size: px-to-em(36);
+        line-height: 113%;
+        text-transform: uppercase;
+        background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        max-width: 300px;
+        margin-bottom: 10px;
+    }
+
+    &__textone {
+        font-family: 'Helvetica';
+        font-size: px-to-em(16);
+        line-height: 112%;
+        color: #5C5C5E;
+        max-width: 300px;
+        margin-bottom: 25px;
+    }
+
+    &__btn {
+        border: 1px solid;
+        border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
+        font-family: 'Helvetica';
+        font-weight: 700;
+        font-size: px-to-em(16);
+        line-height: 112%;
+        padding: 16px 48px;
+        background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    &__cards {
+       display: flex;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid;
+        border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
+        padding: 20px;
+    }
+
+    &__image {
+        object-fit: cover;
+        max-width: 100%;
+        display: block;
+    }
+
+    &__title {
+        font-family: 'Helvetica';
+        font-size: px-to-em(22);
+        line-height: 116%;
+        color: #070707;
+        padding: 10px 0;
+    }
+
+    &__text {
+        font-family: 'Helvetica';
+        font-size: px-to-em(16);
+        line-height: 112%;
+        color: #5C5C5E;
+        margin-bottom: 40px;
+        max-width: 260px;
+    }
+
+    &__link {
+        font-family: 'Helvetica';
+        font-size: px-to-em(16);
+        line-height: 112%;
+        background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-top: auto;
+    }
+}

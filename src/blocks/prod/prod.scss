@@ -6,16 +6,6 @@
         padding: 76px 10px 100px;
     }
 
-    &__title {
-        font-family: 'Helvetica';
-        font-size: px-to-em(16);
-        line-height: 112%;
-        color: #5C5C5E;
-        text-transform: uppercase;
-        flex-basis: 300px;
-        padding-right: 20px;
-    }
-
     &__text {
         font-family: 'Helvetica';
         font-size: px-to-em(36);
@@ -31,6 +21,7 @@
 
     &__titles {
         display: flex;
+        
     }
 
     &__btn {

@@ -32,6 +32,10 @@ button {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 @font-face {
   font-family: 'Helvetica';
   src: url(../fonts/helvetica.woff2);
@@ -46,3 +50,9 @@ button {
 @import './src/blocks/main/main';
 @import './src/blocks/prod/prod';
 @import './src/blocks/tabs/tabs';
+@import './src/blocks/cards/cards';
+@import './src/blocks/title/title';
+@import './src/blocks/buy/buy';
+@import './src/blocks/kit/kit';
+@import './src/blocks/promo/promo';
+@import './src/blocks/more/more';

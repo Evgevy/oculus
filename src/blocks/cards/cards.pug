@@ -1,0 +1,25 @@
+mixin cards()
+  section.cards&attributes(attributes)
+    .cards__content
+      +title('GAMES')
+      .cards__games 
+        .cards__info 
+          h3.cards__titleone It’s all fun and games
+          p.cards__textone Discover new adventures, master epic challenges or revisit classic moments in your favourite games and experiences
+          button(type="button").cards__btn SEE ALL GAMES
+        .cards__cards 
+          .cards__item 
+            img(src="img/blade.jpg" alt="Игра VR").cards__image
+            h4.cards__title Blade & Sorcery: Nomad
+            p.cards__text Step into a medieval fantasy sandbox that uses phisics to serve up some of the most realistic combat in VR
+            a(href="#").cards__link see more
+          .cards__item 
+            img(src="img/popul.jpg" alt="Игра VR").cards__image
+            h4.cards__title Population: One
+            p.cards__text Climb anything. Fight everywhere. Experience battle royale only possible in VR
+            a(href="#").cards__link see more
+          .cards__item 
+            img(src="img/natural.jpg" alt="Игра VR").cards__image
+            h4.cards__title Supernatural
+            p.cards__text Box, Flow, Meditate and Stretch with real coaches in stunning destinations from around the world. Enjoy new workouts every day.
+            a(href="#").cards__link see more         

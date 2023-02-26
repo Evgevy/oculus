@@ -1,8 +1,8 @@
-mixin prod(title)
+mixin prod()
   section.prod&attributes(attributes)
     .prod__content 
       .prod__titles
-        h2.prod__title PRODUCT FEATURES
+        +title('PRODUCT FEATURES')
         p.prod__text Easy to set up and safe to use
       .prod__tabs
         .prod__tab 

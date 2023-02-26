@@ -1,0 +1,12 @@
+.title {
+    &__title {
+        font-family: 'Helvetica';
+        font-size: px-to-em(16);
+        line-height: 112%;
+        color: #5C5C5E;
+        text-transform: uppercase;
+        width: 300px;
+        padding: 0 20px 20px 0;
+    }
+  
+}
