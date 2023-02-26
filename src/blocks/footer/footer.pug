@@ -1,0 +1,19 @@
+mixin footer(modifier)
+  footer.footer&attributes(attributes)
+    .footer__content 
+      nav.footer__nav
+        .footer__menu
+          a(href="#").footer__link SHOP
+          a(href="#").footer__link GAMES
+          a(href="#").footer__link METAVERSE
+          a(href="#").footer__link CONTACT US
+        a(href="#").footer__logo
+          include img/logo.svg
+        .footer__social 
+          a(href="#").footer__link-item
+            include img/youtube.svg
+          a(href="#").footer__link-item
+            include img/facebook.svg
+          a(href="#").footer__link-item
+            include img/insta.svg
+          

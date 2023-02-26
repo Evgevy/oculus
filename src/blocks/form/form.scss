@@ -1,0 +1,100 @@
+.form {
+    &__content {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px 103px;
+        position: relative;
+    }
+
+    &__title {
+        font-family: 'Helvetica';
+        font-size: px-to-em(24);
+        line-height: 116%;
+        color: #070707;
+        margin-bottom: 10px;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+
+    &__contacts {
+        flex-basis: 600px;
+    }
+
+    &__form {
+        margin-bottom: 10px;
+        position: relative;
+    }
+
+    &__text {
+        font-family: 'Helvetica';
+        font-size: px-to-em(13);
+        line-height: 115%;
+        color: #5C5C5E;
+    }
+
+    &__email {
+        font-family: 'Helvetica';
+        font-size: px-to-em(16);
+        line-height: 112%;
+        color: #5C5C5E;
+        transition: .3s;
+    }
+
+    &__input {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #CACAD6;
+        padding: 22px 70px 22px 0;
+        transition: .3s;
+        
+    }
+
+    &__input::placeholder {
+        font-family: 'Helvetica';
+        font-size: px-to-em(15);
+        line-height: 115%;
+        color: #CACAD6;
+
+    }
+
+    &__input:focus {
+        outline: none;
+        font-size: 20px;
+    }
+
+    &__btn {
+        font-family: 'Helvetica';
+        font-weight: 700;
+        font-size: px-to-em(16);
+        line-height: 112%;
+        color: #5C5C5E;
+        background: #CACAD6;
+        padding: 14px 12px;
+        border-radius: 50%;
+        text-transform: uppercase;
+        position: absolute;
+        right: 0;
+        bottom: 5px;
+        transition: .3s;
+    }
+
+    &__btn:hover {
+        background: black;
+        color: white;
+        transform: scale(1.1);
+
+    }
+
+    &__email:hover {
+        background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        transform: scale(1.1);
+    }
+
+}

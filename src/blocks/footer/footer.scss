@@ -1,0 +1,43 @@
+.footer {
+    border-bottom: 1px solid #CACAD6;
+    border-top: 1px solid #CACAD6;
+    padding: 30px 0;
+    margin-bottom: 44px;
+    &__content {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    &__nav {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+    }
+
+    &__menu {
+        display: flex;
+        gap: 0 20px;
+    }
+
+    &__link {
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #5C5C5E;
+    }
+
+    &__logo {
+        justify-self: center;
+    }
+
+    &__social {
+        display: flex;
+        gap: 20px;
+        justify-self: end;
+    }
+  
+}
