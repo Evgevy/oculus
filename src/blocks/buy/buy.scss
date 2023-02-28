@@ -19,7 +19,7 @@
     }
 
     &__button {
-        padding: 22px 112px;
+        padding: 22px 111px;
         font-family: 'Helvetica';
         font-weight: 700;
         font-size: px-to-em(16);
@@ -35,7 +35,7 @@
         font-size: px-to-em(16);
         line-height: 112%;
         color: #5C5C5E;
-        padding: 21px 105px;
+        padding: 21px 104px;
         border: 1px solid transparent;
         border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
         display: inline-block;
@@ -67,11 +67,11 @@
     @keyframes line-text {
         from {
             transform: translateX(115%);
-            transform-origin: left center;
+            //transform-origin: left center;
         }
         to {
             transform: translateX(-115%);
-            transform-origin: right center;
+            //transform-origin: right center;
         }
     }
 
