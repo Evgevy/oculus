@@ -96,4 +96,16 @@
         transform: scale(1.1);
     }
 
+    @media screen and (max-width: 860px) {
+        
+        &__inner {
+            display: block;
+        }
+
+        &__contacts {
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+    }
+
 }

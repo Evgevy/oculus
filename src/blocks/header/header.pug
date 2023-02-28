@@ -2,10 +2,23 @@ mixin header(modifier)
   header.header&attributes(attributes)
     .header__content 
       nav.header__nav
+        .header__burger
+          .header__line 
+          .header__line
+          .header__line
         .header__menu
           a(href="#").header__link SHOP
           a(href="#").header__link GAMES
           a(href="#").header__link METAVERSE
+          a(href="#").header__link.header__link--one CONTACT US
+          a(href="mailto:oculusshop@gmail.com").header__email oculusshop@gmail.com
+          .header__social 
+            a(href="#").header__link-item
+              include img/youtube.svg
+            a(href="#").header__link-item
+              include img/facebook.svg
+            a(href="#").header__link-item
+              include img/insta.svg
         a(href="#").header__logo
           include img/logo.svg
         a(href="#").header__bag 

@@ -120,6 +120,27 @@
        transform: scale(1.1);
     }
 
+    @media screen and (max-width: 605px) {
+        &__content {
+            max-width: 360px;
+        }
+    }
+
+    @media screen and (max-width: 360px) {
+        &__content {
+            max-width: 318px;
+        }
+
+        &__title {
+            font-size: px-to-em(16);
+        }
+
+        &__email {
+            font-size: px-to-em(22);
+            text-align-last: left;
+        }
+    }
+
 
   
 }

@@ -23,10 +23,8 @@
 
     &__link {
         font-family: 'Helvetica';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 22px;
+        font-size: px-to-em(16);
+        line-height: 137%;
         color: #5C5C5E;
     }
 
@@ -38,6 +36,25 @@
         display: flex;
         gap: 20px;
         justify-self: end;
+    }
+
+    @media screen and (max-width: 1124px) {
+        &__nav {
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+        &__menu {
+            gap: 0 10px;
+        }
+
+        &__link {
+            font-size: px-to-em(12);
+        }
     }
   
 }
