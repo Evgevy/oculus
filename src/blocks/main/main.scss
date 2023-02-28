@@ -10,6 +10,7 @@
         width: 100%;
         margin: 0 auto;
         padding: 0 10px;
+        
     }
 
     &__box {
@@ -41,7 +42,7 @@
 
     &__button {
         margin-top: 50px;
-        padding: 21px 111px;
+        padding: 22px 111px;
         font-family: 'Helvetica';
         font-weight: 700;
         font-size: px-to-em(16);
@@ -64,6 +65,46 @@
         border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
         display: inline-block;
         margin-bottom: 10px;
+    }
+
+    @media screen and (max-width: 768px) {
+        &__title {
+            font-size: px-to-em(66);
+        }
+
+        &__subtitle {
+            font-size: px-to-em(24);
+        }
+    }
+
+    @media screen and (max-width: 625px) {
+        
+        &__content {
+            text-align: center;
+        }
+
+        &__box {
+            padding-top: 100px;
+        }
+    }
+
+    @media screen and (max-width: 420px) {
+        &__title {
+            font-size: px-to-em(48);
+        }
+
+        &__subtitle {
+            font-size: px-to-em(20);
+        }
+
+        &__button {
+            padding: 20px 100px;
+        }
+
+        &__price {
+            padding: 20px 94px;
+        }
+
     }
 
    

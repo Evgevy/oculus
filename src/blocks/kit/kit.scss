@@ -23,6 +23,7 @@
         max-width: 100%;
         object-fit: cover;
         margin-bottom: 10px;
+        height: auto;
     }
 
     &__textone {
@@ -41,5 +42,59 @@
         line-height: 112%;
         color: #5C5C5E;
     }
+
+    @media screen and (max-width: 1190px) {
+        &__box {
+            grid-template-columns: 580px 1fr 1fr;
+        }
+    }
+
+    @media screen and (max-width: 1015px){
+        &__box {
+            display: block; 
+            padding-bottom: 80px;
+        }
+
+        &__img {
+            width: 100%;
+            object-fit: cover;
+            max-width: 50%;
+            margin: 0 auto;
+        }
+
+        &__item {
+            text-align: center;
+        }
+
+        &__text {
+            margin: 10px 0 20px;
+            font-size: px-to-em(20);
+        }
+
+        &__textone {
+            margin-bottom: 20px;
+        }
+    }
+
+    @media screen and (max-width: 620px) {
+        &__img {
+            max-width: 80%;
+        }
+    }
+
+    @media screen and (max-width: 360px) {
+        &__img {
+            max-width: 100%;
+        }
+
+        &__text {
+            font-size: px-to-em(16);
+        }
+
+        &__textone {
+            font-size: px-to-em(30);
+        }
+    }
+       
   
 }

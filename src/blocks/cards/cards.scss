@@ -91,4 +91,60 @@
         margin-top: auto;
         width: 100px;
     }
+
+    @media screen and (max-width: 968px) {
+        &__games {
+            flex-direction: column;
+            gap: 30px 0;
+            padding-bottom: 80px;
+        }
+
+        &__titleone {
+            max-width: 100%;
+           
+        }
+
+        &__textone {
+            max-width: 100%;
+            
+        }
+
+        &__info {
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 635px) {
+        &__cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        &__title {
+            font-size: px-to-em(18);
+        }
+
+        &__text {
+            font-size: px-to-em(14);
+            
+        }
+    }
+
+    @media screen and (max-width: 430px) {
+        &__cards {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        &__text {
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+    @media screen and (max-width: 360px) {
+        &__titleone {
+            font-size: px-to-em(32);
+        }
+    }
 }

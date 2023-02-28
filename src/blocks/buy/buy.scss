@@ -19,7 +19,7 @@
     }
 
     &__button {
-        padding: 21px 111px;
+        padding: 22px 111px;
         font-family: 'Helvetica';
         font-weight: 700;
         font-size: px-to-em(16);
@@ -72,6 +72,22 @@
         to {
             transform: translateX(-115%);
             transform-origin: right center;
+        }
+    }
+
+    @media screen and (max-width: 430px) {
+        &__bg {
+            font-size: px-to-em(330);
+        }
+
+        &__img {
+            max-width: 80%;
+            padding-top: 50px;
+           
+        }
+
+        &__content {
+            padding-bottom: 80px;
         }
     }
 
