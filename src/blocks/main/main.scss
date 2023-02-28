@@ -75,6 +75,10 @@
         &__subtitle {
             font-size: px-to-em(24);
         }
+
+        /*&__price {
+            display: none;
+        }*/
     }
 
     @media screen and (max-width: 625px) {
@@ -97,13 +101,13 @@
             font-size: px-to-em(20);
         }
 
-        &__button {
+        /*&__button {
             padding: 20px 100px;
         }
 
         &__price {
             padding: 20px 94px;
-        }
+        }*/
 
     }
 
