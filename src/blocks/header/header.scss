@@ -1,6 +1,11 @@
 .header {
     border-bottom: 1px solid #CACAD6;
     background: #F6F4F5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
     
     &__content {
         max-width: 1200px;
@@ -106,7 +111,7 @@
                 align-items: center;
                 justify-content: center;
                 position: absolute;
-                background-color: white;
+                background-color: #F6F4F5;
                 top: 0;
                 left: 0;
                 padding: 90px 15px 20px;
