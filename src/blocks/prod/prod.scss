@@ -31,19 +31,17 @@
         color: #5C5C5E;
         text-align: left;
         transition: .3s;
-        
+        &--active {
+            transform: scale(1.1);
+            background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
     }
 
     &__btn:hover {
         transform: scale(1.1);
         color: #070707;
-    }
-
-    &__btn:focus {
-        transform: scale(1.1);
-        background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
     }
 
     &__tab {

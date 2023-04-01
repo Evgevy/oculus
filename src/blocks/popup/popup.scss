@@ -68,7 +68,7 @@
         transition: .3s;
         display: block;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     &__input {
@@ -137,7 +137,7 @@
 
         &__email {
             font-size: px-to-em(22);
-            text-align-last: left;
+            text-align: left;
         }
     }
 
