@@ -19,7 +19,8 @@
     }
 
     &__button {
-        padding: 22px 111px;
+        width: 300px;
+        height: 60px;
         font-family: 'Helvetica';
         font-weight: 700;
         font-size: px-to-em(16);
@@ -35,11 +36,12 @@
         font-size: px-to-em(16);
         line-height: 112%;
         color: #5C5C5E;
-        padding: 21px 104px;
+        width: 300px;
+        height: 60px;
         border: 1px solid transparent;
         border-image: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
         display: inline-block;
-        margin-bottom: 10px;
+        margin: 0 0 10px -10px;
     }
 
     
@@ -67,11 +69,17 @@
     @keyframes line-text {
         from {
             transform: translateX(115%);
-            //transform-origin: left center;
+            
         }
         to {
             transform: translateX(-115%);
-            //transform-origin: right center;
+            
+        }
+    }
+
+    @media screen and (max-width: 615px) {
+        &__price {
+            margin-left: 0;
         }
     }
 
