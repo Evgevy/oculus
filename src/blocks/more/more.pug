@@ -3,28 +3,57 @@ mixin more(modifier)
     .more__content 
       +title('ACCESSORIES')
       p.more__textone Personalize every experience
-      .more__items 
-        .more__item 
-          img(src="img/acc-1.jpg" alt="Аксессуар для VR").more__img
-          h3.more__title Meta Quest 2 Carrying Case
-          p.more__text Protect your system–at home or away.
-          span.more__price $59.99 USD
-          button(type="button").more__btn BUY NOW
-        .more__item 
-          img(src="img/acc-2.jpg" alt="Аксессуар для VR").more__img
-          h3.more__title Link Cable
-          p.more__text Harness the power of your PC with this premium fiber-optic cable.
-          span.more__price $79.99 USD
-          button(type="button").more__btn BUY NOW
-        .more__item 
-          img(src="img/acc-3.jpg" alt="Аксессуар для VR").more__img
-          h3.more__title Meta Quest 2 Active Pack
-          p.more__text A wipeable facial interface, wrist straps, and knuckle straps.
-          span.more__price $69.99 USD
-          button(type="button").more__btn BUY NOW
-        .more__item 
-          img(src="img/acc-4.jpg" alt="Аксессуар для VR").more__img
-          h3.more__title Meta Quest Gift Cards
-          p.more__text Redeemable on 350+ games and apps.
-          span.more__price $15-50 USD
-          button(type="button").more__btn BUY NOW
+      .more__slider
+        .more__button-prev
+          include img/arrow.svg
+        .more__items
+          .more__item
+            img(src="img/acc-1.jpg" alt="Аксессуар для VR").more__img
+            h3.more__title Meta Quest 2 Carrying Case
+            p.more__text Protect your system–at home or away.
+            span.more__price $59.99 USD
+            button(type="button").more__btn BUY NOW
+          .more__item
+            img(src="img/acc-2.jpg" alt="Аксессуар для VR").more__img
+            h3.more__title Link Cable
+            p.more__text Harness the power of your PC with this premium fiber-optic cable.
+            span.more__price $79.99 USD
+            button(type="button").more__btn BUY NOW
+          .more__item
+            img(src="img/acc-3.jpg" alt="Аксессуар для VR").more__img
+            h3.more__title Meta Quest 2 Active Pack
+            p.more__text A wipeable facial interface, wrist straps, and knuckle straps.
+            span.more__price $69.99 USD
+            button(type="button").more__btn BUY NOW
+          .more__item
+            img(src="img/acc-4.jpg" alt="Аксессуар для VR").more__img
+            h3.more__title Meta Quest Gift Cards
+            p.more__text Redeemable on 350+ games and apps.
+            span.more__price $15-50 USD
+            button(type="button").more__btn BUY NOW
+          .more__item
+            img(src="img/acc-1.jpg" alt="Аксессуар для VR").more__img
+            h3.more__title Meta Quest 2 Carrying Case
+            p.more__text Protect your system–at home or away.
+            span.more__price $59.99 USD
+            button(type="button").more__btn BUY NOW
+          .more__item
+            img(src="img/acc-2.jpg" alt="Аксессуар для VR").more__img
+            h3.more__title Link Cable
+            p.more__text Harness the power of your PC with this premium fiber-optic cable.
+            span.more__price $79.99 USD
+            button(type="button").more__btn BUY NOW
+          .more__item
+            img(src="img/acc-3.jpg" alt="Аксессуар для VR").more__img
+            h3.more__title Meta Quest 2 Active Pack
+            p.more__text A wipeable facial interface, wrist straps, and knuckle straps.
+            span.more__price $69.99 USD
+            button(type="button").more__btn BUY NOW
+          .more__item
+            img(src="img/acc-4.jpg" alt="Аксессуар для VR").more__img
+            h3.more__title Meta Quest Gift Cards
+            p.more__text Redeemable on 350+ games and apps.
+            span.more__price $15-50 USD
+            button(type="button").more__btn BUY NOW
+        .more__button-next
+          include img/arrow.svg
