@@ -5,17 +5,34 @@ $(document).ready(function(){
         slidesToShow: 4,
         slidesToScroll: 4,
         infinite: true,
-        //adaptiveHeight: true
+        dots: true,
         responsive: [
             {
-              breakpoint: 1280,
+              breakpoint: 1281,
               settings: {
                 slidesToShow: 3,
-                slidesToScroll: 3
-                
+                slidesToScroll: 2
+              }
+            },
+
+            {
+              breakpoint: 1001,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+              }
+            },
+
+            {
+              breakpoint: 706,
+              settings: {
+                prevArrow: false,
+                nextArrow: false,
+                slidesToShow: 2,
+                slidesToScroll: 2
               }
             }
           ]
 
     })
-})
+});
