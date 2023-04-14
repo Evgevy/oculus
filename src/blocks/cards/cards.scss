@@ -44,6 +44,12 @@
         background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
         -webkit-text-fill-color: transparent;
         background-clip: text;
+        transition: .3s;
+    }
+
+    &__btn:hover {
+        background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+       -webkit-text-fill-color: #ffffff;
     }
 
     &__cards {
@@ -90,6 +96,11 @@
         background-clip: text;
         margin-top: auto;
         width: 100px;
+        transition: .2s;
+    }
+
+    &__link:hover {
+        transform: scale(1.1);
     }
 
     @media screen and (max-width: 968px) {

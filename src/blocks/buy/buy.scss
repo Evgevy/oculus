@@ -28,6 +28,11 @@
         color: #F6F4F5;
         background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
         text-transform: uppercase;
+        transition: .2s;
+    }
+
+    &__button:hover {
+        transform: scale(1.1);
     }
 
     &__price {
